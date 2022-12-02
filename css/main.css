@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url(./base/combobox.css);
+@import url(./base/button.css);
+@import url(./base/input.css);
+@import url(./base/table.css);
+@import url(./layout/header.css);
+@import url(./layout/sidebar.css);
+@import url(./layout/page.css);
+@import url(./layout/table.css);
+@import url(./icofont/icofont.css);
+@import url(./icofont/icofont.min.css);
+@import url(./base/dialog.css);
+
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main{
+    background-color: #f4f7ff;
+    flex: 1;
+    padding: 8px;
+    height: calc(100vh - 44px);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+};

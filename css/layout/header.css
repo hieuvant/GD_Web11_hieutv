@@ -1,0 +1,58 @@
+.header {
+    background-color: #ffffff;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 48px;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #afafaf;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .16);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-text-left {
+    font-size: 17px;
+    padding-left: 4px;
+}
+
+.header-icon-left {
+    background: url(./../../icons/ic_sprites.svg);
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.header-icon-right {
+    width: 30px;
+    height: 30px;
+}
+
+.space-right {
+    background-color: #D5D8E6;
+    width: 1px;
+    height: 30px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.header-avt-right {
+    width: 36px;
+    height: 36px;
+    margin-left: 16px;
+}
+.Chevron-right{
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}

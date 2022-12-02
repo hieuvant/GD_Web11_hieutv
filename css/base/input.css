@@ -1,0 +1,18 @@
+
+
+input{
+    height: 36px;
+    width: 360px;
+    border: 1px solid #ccc;
+    outline: unset;
+    border-radius: 4px;
+    padding: 0 12px;
+}
+
+.input-search{
+    background-image: url(../../icons/Ic_seerch.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 8px);
+    background-position-y: center;
+}

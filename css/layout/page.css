@@ -1,0 +1,45 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 8px;
+}
+
+.input-search:hover{
+    border-color: #0DD469;
+}
+
+.page-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-output {
+    border-width: 1px;
+    background-color: #ffffff;
+    min-width: 96px;
+    height: 36px;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+}
+.btn-more-op{
+    border-width: 1px;
+    background-image: url(./../../icons/ic_sprites.svg);
+    background-color: #ffffff;
+    width: 36px;;
+    height: 36px;
+    font-size: 13px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.page-body {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 13px 8px;
+}
