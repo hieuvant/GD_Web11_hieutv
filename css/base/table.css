@@ -1,7 +1,4 @@
 table {
-    border-radius: 3.5px;
-    border: 1px solid #afafaf;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, .16);
     font-size: 13px;
     width: 100%;
 }
@@ -31,83 +28,20 @@ table td {
     border-bottom: 1px solid #afafaf;
 }
 
-.number-marin{
+.number-marin {
     text-align: center;
 }
 
-.number-left{
+.number-left {
     text-align: left;
 }
-.number-left-name{
+
+.number-left-name {
     text-align: end;
     color: #03AE66;
 }
 
-/* .paging {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 16px;
-    border: 1px solid #afafaf;
-    background-color: #ffffff;
-    font-size: 13px;
+.checkbox-table{
+    width: 13px;
+    height: 13px;
 }
-
-.paging-left {
-    display: flex;
-    align-items: center;
-}
-
-.paging-page-number{
-    display: flex;
-    align-items: center;
-}
-
-.paging-page-number a+a{
-    padding-left: 1px;
-}
-
-.paging-right {
-    font-weight: 700;
-}
-
-.paging-page-limit {
-    width: 59px;
-    height: 25px;
-    padding-right: 31px;
-}
-
-.paging-page-range {}
-
-.paging-page-button {
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
-
-.paging-number-left{
-    display: flex;
-    align-items: center;
-}
-
-.paging-number-left .paging-number {
-    background-color: #f5f5f5;
-    border-radius: 3px;
-    width: 20px;
-    height: 20px;
-}
-
-.paging-number+.paging-number {
-    padding-left: 7px;
-}
-
-.paging-page-button button {
-    border: unset;
-    font-size: 20px;
-    background-color: #ffffff;
-    cursor: pointer;
-}
-
-.paging-page-button button+button {
-    margin-left: 107px;
-} */
