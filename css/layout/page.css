@@ -52,9 +52,11 @@
     display: flex;
     align-items: center;
     padding: 12px 8px;
-    border: 1px solid #afafaf;
     background-color: #ffffff;
     font-size: 14px;
+    border: 1px solid #D5D8E6;
+    border-width: 1px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .16);
 }
 
 .btn-paging-movetofirt{
