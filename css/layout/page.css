@@ -63,6 +63,7 @@
     height: 20px; 
     border: unset;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-paging-pre{
@@ -71,6 +72,7 @@
     height: 20px; 
     border: unset;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-paging-next{
@@ -79,6 +81,7 @@
     height: 20px; 
     border: unset;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-paging-movetolast{
@@ -87,11 +90,13 @@
     height: 20px; 
     border: unset;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .paging-text{
     font-size: 14px;
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .paging-text-total{
