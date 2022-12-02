@@ -22,7 +22,7 @@
     background-color: #ffffff;
     min-width: 96px;
     height: 36px;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
     cursor: pointer;
 }
@@ -34,7 +34,7 @@
     background-color: #ffffff;
     width: 36px;;
     height: 36px;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
     cursor: pointer;
 }
@@ -54,7 +54,7 @@
     padding: 12px 8px;
     border: 1px solid #afafaf;
     background-color: #ffffff;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .btn-paging-movetofirt{
@@ -90,11 +90,11 @@
 }
 
 .paging-text{
-    font-size: 13px;
+    font-size: 14px;
     margin-left: 8px;
 }
 
 .paging-text-total{
-    font-size: 13px;
+    font-size: 14px;
     margin-left: 8px;
 }
