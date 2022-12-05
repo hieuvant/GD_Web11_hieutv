@@ -1,7 +1,6 @@
 table {
     font-size: 14px;
     width: 100%;
-    overflow: scroll;
 }
 
 table thead {
@@ -38,11 +37,47 @@ table td {
 }
 
 .number-left-name {
-    text-align: end;
+    text-align: left;
     color: #03AE66;
 }
 
 .checkbox-table{
     width: 13px;
     height: 13px;
+}
+
+.table-checklist{
+    background-image: url(./../../icons/ic_Check.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    margin: 0 auto;
+}
+
+.btn-edit{
+    border: unset;
+    background:url(./../../icons/ic_Edit.png);
+    background-size: 28px 28px;
+    width: 28px;
+    height: 28px;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-remove{
+    border: unset;
+    background:url(./../../icons/ic_Remove.png);
+    background-size: 28px 28px;
+    width: 28px;
+    height: 28px;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-edit+.btn-remove{
+    margin-left: 5px;
 }
