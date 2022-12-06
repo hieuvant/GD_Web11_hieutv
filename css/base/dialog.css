@@ -1,21 +1,201 @@
-.dialog{
+.dialog {
     position: fixed;
     top: 0%;
     left: 0%;
     right: 0%;
     bottom: 0%;
     background: #000000af;
-    /* display: flex;
-    align-items:center;
-    justify-items: center; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
-.dialog-weapper{
+.dialog-weapper {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    width: 700px;
-    height: 500px;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 400px;
     background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialog-sidebar {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* align-items:center; */
+    justify-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+}
+
+.dialog-avt {
+    border: unset;
+    background-size: 140px 196px;
+    width: 140px;
+    height: 196px;
+    border-radius: 4px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.img-avt {
+    border: unset;
+    background: url(./../../icons/bg_chonanh.png);
+    background-size: 140px 160px;
+    width: 140px;
+    height: 160px;
+}
+
+.btn-upload-avt {
+    border: unset;
+    background-color: #02BF70;
+    min-width: 140px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 13px;
+    color: #ffffff;
+    cursor: pointer;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid #D5D8E6;
+    border-width: 1px;
+}
+
+.dialog-text-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+.dialog-name {
+    font-size: 14px;
+}
+
+.dialog-stt {
+    font-size: 13px;
+}
+
+.space-left {
+    background-color: #EEEEEE;
+    width: 1px;
+    height: 366px;
+    margin-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.dialog-form-right {
+    width: 600px;
+    height: 400px;
+    font-size: 13px;
+}
+
+.dialog_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog-text-header {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.btn-dialog-close {
+    background: url(./../../icons/ic_X_40.png);
+    border: unset;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.dialog_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.text-stt-dialog {
+    margin-top: 10px;
+}
+
+.text-phone-dialog {
+    margin-top: 20px;
+}
+
+.text-name-dialog {
+    margin-top: 10px;
+}
+
+.text-email-dialog {
+    margin-top: 20px;
+}
+
+.dialog_container-left {
+    margin-top: 16px;
+}
+
+.stt-dialog {
+    display: flex;
+    flex-direction: row;
+}
+
+.phone-dialog {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-stt-dialog-left {
+    width: 150px;
+    margin-left: 8px;
+}
+
+.input-phone-dialog-left {
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+.dialog_container-right {
+    margin-top: 16px;
+}
+
+.name-dialog {
+    display: flex;
+    flex-direction: row;
+}
+
+.email-dialog {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-name-dialog-right {
+    width: 200px;
+    margin-left: 8px;
+}
+
+.input-email-dialog-right {
+    width: 200px;
+    margin-left: 43px;
+    margin-top: 12px;
+}
+
+.dropdownlist-dialog-left{
+    display: flex;
+    flex-direction: row;
+
 }

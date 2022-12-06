@@ -1,6 +1,4 @@
-
-
-input{
+input {
     height: 36px;
     width: 360px;
     border: 1px solid #ccc;
@@ -9,7 +7,7 @@ input{
     padding: 0 12px;
 }
 
-.input-search{
+.input-search {
     background-image: url(../../icons/Ic_seerch.png);
     background-size: 30px 30px;
     background-repeat: no-repeat;
@@ -17,7 +15,7 @@ input{
     background-position-y: center;
 }
 
-.input-number{
+.input-number {
     width: 72px;
     margin-left: 8px;
     margin-right: 8px;
