@@ -5,7 +5,6 @@
 @import url(./layout/header.css);
 @import url(./layout/sidebar.css);
 @import url(./layout/page.css);
-@import url(./layout/table.css);
 @import url(./icofont/icofont.css);
 @import url(./icofont/icofont.min.css);
 @import url(./base/dialog.css);
@@ -56,5 +55,3 @@
     flex-direction: column;
     box-sizing: border-box;
 }
-
-;

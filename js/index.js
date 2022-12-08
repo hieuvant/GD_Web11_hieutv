@@ -7,7 +7,7 @@ createEvent();
  * EditBy: TVHieu - MF1485 (7/12/2022) - Sửa lại Api
 */
 "use strict";
-// GOI API LAY DU LIEU
+// Gọi Api lấy giữ liệu
 function loadData() {
   $.ajax({
     type: "GET",

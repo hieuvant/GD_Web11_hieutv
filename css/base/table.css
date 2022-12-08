@@ -40,12 +40,12 @@ table td {
     color: #03AE66;
 }
 
-.checkbox-table{
+.checkbox-table {
     width: 13px;
     height: 13px;
 }
 
-.table-checklist{
+.table-checklist {
     background-image: url(./../../icons/ic_Check.png);
     width: 20px;
     height: 20px;
@@ -55,9 +55,9 @@ table td {
     margin: 0 auto;
 }
 
-.btn-edit{
+.btn-edit {
     border: unset;
-    background:url(./../../icons/ic_Edit.png);
+    background: url(./../../icons/ic_Edit.png);
     background-size: 28px 28px;
     width: 28px;
     height: 28px;
@@ -66,9 +66,9 @@ table td {
     cursor: pointer;
 }
 
-.btn-remove{
+.btn-remove {
     border: unset;
-    background:url(./../../icons/ic_Remove.png);
+    background: url(./../../icons/ic_Remove.png);
     background-size: 28px 28px;
     width: 28px;
     height: 28px;
@@ -77,6 +77,6 @@ table td {
     cursor: pointer;
 }
 
-.btn-edit+.btn-remove{
+.btn-edit+.btn-remove {
     margin-left: 5px;
 }

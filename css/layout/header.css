@@ -9,6 +9,7 @@
     border: 1px solid #D5D8E6;
     border-width: 1px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, .16);
+    box-sizing: border-box;
 }
 
 .header-left {
@@ -50,7 +51,8 @@
     margin-right: 16px;
     cursor: pointer;
 }
-.Chevron-right{
+
+.Chevron-right {
     width: 20px;
     height: 20px;
     margin-left: 16px;

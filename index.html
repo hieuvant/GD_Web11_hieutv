@@ -9,14 +9,15 @@
     </head>
     <body>
         <div class="container">
-            <div class="sidebar">
+            <div id="mySidebar" class="sidebar">
                 <div class="sidebar-item-home">
                     <div class="sidebar-item-home-left">
                         <div class="icon-sidebar-home" style="background:
                             url(./icons/ic_IconThietBi.svg); "></div>
                         <div class="sidebar-item-text-home">Thiết bị</div>
                     </div>
-                    <div class="icofont-justify-all"></div>
+                    <div class="icofont-justify-all" href="javascript:void(0)"
+                        onclick="closeNav()"></div>
                 </div>
                 <div class="sidebar-item-body">
                     <div class="sidebar-item">
@@ -225,17 +226,14 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <script>
-            function openForm() {
-              document.getElementById("dialog").style.display = "block";
-            }
-            
-            function closeForm() {
-              document.getElementById("dialog").style.display = "none";
+        </div> -->
+                <script src="./js/jquery-3.6.1.min.js"></script>
+                <script src="./js/index.js"></script>
+                <!-- <script>
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "50px";
+              document.getElementById("main").style.marginLeft= "50px";
             }
         </script> -->
-        <script src="./js/jquery-3.6.1.min.js"></script>
-        <script src="./js/index.js"></script>
-    </body>
-</html>
+            </body>
+        </html>

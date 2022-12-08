@@ -1,6 +1,6 @@
 .btn {
     border: unset;
-    background-color: #02BF70;
+    background-color: #03AE66;
     min-width: 96px;
     height: 32px;
     overflow: hidden;
@@ -12,6 +12,14 @@
     border-width: 1px;
 }
 
-button+button{
+.btn:hover {
+    background-color: #02BF70;
+}
+
+/* .btn:active{
+    background-color: #02BF70;
+} */
+
+button+button {
     margin-left: 10px;
 }
