@@ -34,11 +34,8 @@
     background-image: url(./../../icons/ic_sprites.svg);
     background-color: #ffffff;
     width: 32px;
-    ;
     height: 32px;
-    font-size: 14px;
     margin-right: 8px;
-    color: black;
     cursor: pointer;
 }
 

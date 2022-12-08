@@ -20,10 +20,11 @@
     src: url(./../Fonts/OpenSans-Bold.ttf);
 }
 
-/* .body{
-    font-family: Opbold;
+/* body {
     margin: 0;
-    font-weight: 700;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Regular;
 } */
 
 * {
