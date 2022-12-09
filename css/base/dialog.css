@@ -18,8 +18,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 800px;
-    height: 400px;
+    width: 850px;
+    height: 425px;
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -27,13 +27,13 @@
 }
 
 .dialog-sidebar {
-    padding-top: 20px;
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
     /* align-items:center; */
     justify-items: center;
     flex-direction: column;
-    width: 200px;
+    width: 225px;
     height: 400px;
 }
 
@@ -89,7 +89,7 @@
 .space-left {
     background-color: #EEEEEE;
     width: 1px;
-    height: 366px;
+    height: 390px;
     margin-right: 16px;
     margin-top: 8px;
     margin-bottom: 16px;
@@ -99,6 +99,8 @@
     width: 600px;
     height: 400px;
     font-size: 13px;
+    display: flex;
+    flex-direction: column;
 }
 
 .dialog_header {
@@ -108,7 +110,7 @@
 
 .dialog-text-header {
     font-size: 14px;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .btn-dialog-close {
@@ -160,7 +162,7 @@
 
 .input-stt-dialog-left {
     width: 150px;
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .input-phone-dialog-left {
@@ -177,6 +179,11 @@
     display: flex;
     flex-direction: row;
 }
+.color-text-dialog{
+    color: red;
+    margin-top: 10px;
+    margin-left: 1px;
+}
 
 .email-dialog {
     display: flex;
@@ -185,17 +192,61 @@
 
 .input-name-dialog-right {
     width: 200px;
-    margin-left: 8px;
+    margin-left: 23px;
+    margin-right: 10px;
 }
 
 .input-email-dialog-right {
     width: 200px;
-    margin-left: 43px;
+    margin-left: 56px;
     margin-top: 12px;
+    margin-right: 10px;
 }
 
 .dropdownlist-dialog-left {
     display: flex;
     flex-direction: row;
+}
 
+.combobox-dialog-left{
+    margin-left: 63px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.text-tbm-dialog{
+    margin-top: 20px;
+}
+
+.dropdownlist-dialog-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.combobox-dialog-right{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.text-qlm-dialog{
+    margin-top: 20px;
+}
+
+.dialog_container-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.dropdownlist-dialog-bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.combobox-dialog-bottom{
+    margin-top: 12px;
+    margin-left: 40px;
+}
+
+.text-qlk-dialog{
+    margin-top: 20px;
 }

@@ -1,0 +1,142 @@
+.combobox-dialog-left{
+    height: 32px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.combobox-input-dialog-left{
+    flex: 1;
+    width: 150px;
+}
+
+.combobox__button-left{
+    width: 32px;
+    height: 32px;
+    right: 1px;
+    border-radius: 4px;
+    background-size: 32px 32px;
+    background-color: unset;
+    border: none;
+    position: absolute;
+    background-image: url(./../../icons/ic_Chevron.png);
+    cursor: pointer;
+    
+}
+
+.combobox-dialog-left__data{
+    position: absolute;
+    display: none;
+    top: calc(100% + 1px);
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #000;
+    height: 150px;
+    overflow: scroll;
+}
+
+.data-item{
+    height: 32px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+    border: none;
+}
+
+.data-item:hover{
+    background-color: #D5D8E6;
+    border-radius: 4px;
+}
+
+
+/**************************************************/
+.combobox-dialog-right{
+    height: 32px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.combobox-input-dialog-right{
+    flex: 1;
+    width: 200px;
+}
+
+.combobox__button-right{
+    width: 32px;
+    height: 32px;
+    right: 1px;
+    border-radius: 4px;
+    background-size: 32px 32px;
+    background-color: unset;
+    border: none;
+    position: absolute;
+    background-image: url(./../../icons/ic_Chevron.png);
+    cursor: pointer;
+    
+}
+
+.combobox-dialog-right__data{
+    position: absolute;
+    display: none;
+    top: calc(100% + 1px);
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #000;
+    height: 150px;
+    overflow: scroll;
+}
+
+/**************************************************/
+.combobox-dialog-bottom{
+    height: 32px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.combobox-input-dialog-bottom{
+    flex: 1;
+    width: 461px;
+}
+
+.combobox__button-bottom{
+    width: 32px;
+    height: 32px;
+    right: 1px;
+    border-radius: 4px;
+    background-size: 32px 32px;
+    background-color: unset;
+    border: none;
+    position: absolute;
+    background-image: url(./../../icons/ic_Chevron.png);
+    cursor: pointer;
+    
+}
+
+.combobox-dialog-bottom__data{
+    position: absolute;
+    display: none;
+    top: calc(100% + 1px);
+    padding: 8px;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px #000;
+    overflow: scroll;
+}

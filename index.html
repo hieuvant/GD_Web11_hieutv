@@ -143,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="dialog">
+                <div class="dialog">
                     <div class="dialog-weapper">
                         <div class="dialog-sidebar">
                             <div class="dialog-avt">
@@ -175,7 +175,8 @@
                                 <div class="dialog_container-left">
                                     <div class="stt-dialog">
                                         <div class="text-stt-dialog">Mã số hiệu
-                                            cán bộ *</div>
+                                            cán bộ </div>
+                                        <div class="color-text-dialog">*</div>
                                         <input type="text"
                                             class="input-stt-dialog-left">
                                     </div>
@@ -186,24 +187,36 @@
                                             class="input-phone-dialog-left">
                                     </div>
                                     <div class="dropdownlist-dialog-left">
-                                        <div class="text-phone-dialog">Tổ bộ môn
+                                        <div class="text-tbm-dialog">Tổ bộ môn
                                         </div>
-                                        <select name="" id="">
-                                            <option value="1">Tổ Toán-Tin</option>
-                                            <option value="1">Tổ Lý-Hóa</option>
-                                            <option value="1">Tổ Sinh-Sử-Địa
-                                            </option>
-                                            <option value="1">Tổ Anh văn</option>
-                                            <option value="1">Tổ Ngữ Văn</option>
-                                            <option value="1">Tổ Văn Phòng</option>
-                                        </select>
+                                        <div class="combobox-dialog-left">
+                                            <input type="text"
+                                                class="combobox-input-dialog-left">
+                                            <button id="combobox__btn-left"
+                                                class="combobox__button-left"></button>
+                                            <div id="cbx-dialog-left__data"
+                                                class="combobox-dialog-left__data">
+                                                <div class="data-item">Tổ
+                                                    Toán-Tin</div>
+                                                <div class="data-item">Tổ Lý-Hóa</div>
+                                                <div class="data-item">Tổ
+                                                    Sinh-Sử-Địa</div>
+                                                <div class="data-item">Tổ Anh
+                                                    văn</div>
+                                                <div class="data-item">Tổ Ngữ
+                                                    Văn</div>
+                                                <div class="data-item">Tổ Văn
+                                                    Phòng</div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="dialog_container-right">
                                     <div class="name-dialog">
                                         <div class="text-name-dialog">Họ và tên
-                                            *</div>
-                                        <input type="text"
+                                        </div>
+                                        <div class="color-text-dialog">*</div>
+                                        <input type=""
                                             class="input-name-dialog-right">
                                     </div>
                                     <div class="email-dialog">
@@ -211,12 +224,60 @@
                                         <input type="text"
                                             class="input-email-dialog-right">
                                     </div>
-                                </div>
-                                <div class="dialog_container-bottom">
-
-                                    <div class="checkbox-dialog">
-
+                                    <div class="dropdownlist-dialog-right">
+                                        <div class="text-qlm-dialog">QL theo môn
+                                        </div>
+                                        <div class="combobox-dialog-right">
+                                            <input type="text"
+                                                class="combobox-input-dialog-right">
+                                            <button id="combobox__btn-right"
+                                                class="combobox__button-right"></button>
+                                            <div id="cbx-dialog-right__data"
+                                                class="combobox-dialog-right__data">
+                                                <div class="data-item">Tổ
+                                                    Toán-Tin</div>
+                                                <div class="data-item">Tổ Lý-Hóa</div>
+                                                <div class="data-item">Tổ
+                                                    Sinh-Sử-Địa</div>
+                                                <div class="data-item">Tổ Anh
+                                                    văn</div>
+                                                <div class="data-item">Tổ Ngữ
+                                                    Văn</div>
+                                                <div class="data-item">Tổ Văn
+                                                    Phòng</div>
+                                            </div>
+                                        </div>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="dialog_container-bottom">
+                                <div class="dropdownlist-dialog-bottom">
+                                    <div class="text-qlk-dialog">QL kho,
+                                        phòng
+                                    </div>
+                                    <div class="combobox-dialog-bottom">
+                                        <input type="text"
+                                            class="combobox-input-dialog-bottom">
+                                        <button id="combobox__btn-bottom"
+                                            class="combobox__button-bottom"></button>
+                                        <div id="cbx-dialog-bottom"
+                                            class="combobox-dialog-bottom__data">
+                                            <div class="data-item">Tổ
+                                                Toán-Tin</div>
+                                            <div class="data-item">Tổ Lý-Hóa</div>
+                                            <div class="data-item">Tổ
+                                                Sinh-Sử-Địa</div>
+                                            <div class="data-item">Tổ Anh
+                                                văn</div>
+                                            <div class="data-item">Tổ Ngữ
+                                                Văn</div>
+                                            <div class="data-item">Tổ Văn
+                                                Phòng</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="checkbox-dialog">
+
                                 </div>
                             </div>
                             <div class="dialog_footer">
@@ -226,14 +287,27 @@
                     </div>
                 </div>
             </div>
-        </div> -->
-                <script src="./js/jquery-3.6.1.min.js"></script>
-                <script src="./js/index.js"></script>
-                <!-- <script>
+        </div>
+        <script src="./js/jquery-3.6.1.min.js"></script>
+        <script src="./js/index.js"></script>
+        <script>
+                    document.getElementById("combobox__btn-left").addEventListener("click", function(){
+                        document.getElementById("cbx-dialog-left__data").style.display='block';
+                    })
+
+                    document.getElementById("combobox__btn-right").addEventListener("click", function(){
+                        document.getElementById("cbx-dialog-right__data").style.display='block';
+                    })
+
+                    document.getElementById("combobox__btn-bottom").addEventListener("click", function(){
+                        document.getElementById("cbx-dialog-bottom").style.display='block';
+                    })
+                </script>
+        <!-- <script>
             function closeNav() {
               document.getElementById("mySidebar").style.width = "50px";
               document.getElementById("main").style.marginLeft= "50px";
             }
         </script> -->
-            </body>
-        </html>
+    </body>
+</html>
