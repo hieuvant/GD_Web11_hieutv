@@ -1,3 +1,8 @@
+.tb-paging{
+    overflow-y: auto;
+    height: calc(100vh - 180px);
+}
+
 table {
     font-size: 14px;
     width: 100%;
@@ -25,6 +30,12 @@ table th,
 table td {
     padding: 0 16px;
     border-bottom: 1px solid #afafaf;
+}
+
+th{
+    position: sticky;
+    top:0;
+    background-color: #f5f5f5;
 }
 
 .number-marin {
