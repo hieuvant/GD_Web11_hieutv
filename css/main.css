@@ -8,6 +8,7 @@
 @import url(./icofont/icofont.css);
 @import url(./icofont/icofont.min.css);
 @import url(./base/dialog.css);
+@import url(./base/toast_message.css);
 
 @font-face {
     font-family: Regular;

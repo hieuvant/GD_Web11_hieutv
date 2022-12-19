@@ -13,6 +13,10 @@
     padding-right: 8px;
 }
 
+#dialog-teacher-detail {
+    display: none;
+}
+
 .dialog-weapper {
     position: absolute;
     top: 50%;
@@ -39,9 +43,9 @@
 
 .dialog-avt {
     border: unset;
-    background-size: 140px 196px;
-    width: 140px;
-    height: 196px;
+    background-size: 150px 208px;
+    width: 150px;
+    height: 208px;
     border-radius: 4px;
     margin: 0 auto;
     flex-direction: column;
@@ -49,16 +53,16 @@
 
 .img-avt {
     border: unset;
-    background: url(./../../icons/bg_chonanh.png);
-    background-size: 140px 160px;
-    width: 140px;
-    height: 160px;
+    background: url(./../../icons/img_avatar.png);
+    background-size: 150px 176px;
+    width: 150px;
+    height: 176px;
 }
 
 .btn-upload-avt {
     border: unset;
     background-color: #02BF70;
-    min-width: 140px;
+    min-width: 150px;
     height: 32px;
     overflow: hidden;
     font-size: 13px;
@@ -79,7 +83,7 @@
 }
 
 .dialog-name {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .dialog-stt {
@@ -109,7 +113,7 @@
 }
 
 .dialog-text-header {
-    font-size: 14px;
+    font-size: 18px;
     padding-top: 10px;
 }
 
@@ -179,7 +183,8 @@
     display: flex;
     flex-direction: row;
 }
-.color-text-dialog{
+
+.color-text-dialog {
     color: red;
     margin-top: 10px;
     margin-left: 1px;
@@ -208,75 +213,75 @@
     flex-direction: row;
 }
 
-.combobox-dialog-left{
+.combobox-dialog-left {
     margin-left: 63px;
     margin-top: 12px;
     margin-right: 10px;
 }
 
-.text-tbm-dialog{
+.text-tbm-dialog {
     margin-top: 20px;
 }
 
-.dropdownlist-dialog-right{
+.dropdownlist-dialog-right {
     display: flex;
     flex-direction: row;
 }
 
-.combobox-dialog-right{
+.combobox-dialog-right {
     margin-top: 12px;
     margin-left: 10px;
 }
 
-.text-qlm-dialog{
+.text-qlm-dialog {
     margin-top: 20px;
 }
 
-.dialog_container-bottom{
+.dialog_container-bottom {
     display: flex;
     flex-direction: row;
 }
 
-.dropdownlist-dialog-bottom{
+.dropdownlist-dialog-bottom {
     display: flex;
     flex-direction: row;
 }
 
-.combobox-dialog-bottom{
+.combobox-dialog-bottom {
     margin-top: 12px;
     margin-left: 41px;
 }
 
-.text-qlk-dialog{
+.text-qlk-dialog {
     margin-top: 20px;
 }
 
-.ckb-dialog{
+.ckb-dialog {
     width: 13px;
     height: 13px;
     margin-top: 22px;
 }
 
-.checkbox-dialog{
+.checkbox-dialog {
     display: flex;
     flex-direction: row;
 }
 
-.ckb-item{
+.ckb-item {
     display: flex;
     flex-direction: row;
 }
 
-.text-ckb{
+.text-ckb {
     margin-top: 20px;
     margin-left: 4px;
 }
 
-.ckb-item+.ckb-item{
+.ckb-item+.ckb-item {
     margin-left: 15px;
 }
 
-.dialog_footer{
+.dialog_footer {
     margin-top: 80px;
     display: flex;
     justify-content: flex-end;
@@ -293,4 +298,61 @@
     font-size: 14px;
     color: black;
     cursor: pointer;
+}
+
+/* Error mesage */
+.dialog-el-0-error {
+    display: none;
+}
+
+.dialog-el-2-error {
+    display: none;
+}
+
+.dialog-el-right--error {
+    position: absolute;
+    bottom: 0;
+    right: -220px;
+    background-color: rgba(250, 57, 57, 0.7);
+    color: #fff;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.dialog-el-right--error:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: "";
+    position: absolute;
+    border-right-color: rgba(250, 57, 57, 0.7);
+    border-width: 8px;
+    margin-top: -8px;
+}
+
+.dialog-el-left--error {
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+    left: -192px;
+    background-color: rgba(250, 57, 57, 0.7);
+    color: #fff;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.dialog-el-left--error:after {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: "";
+    position: absolute;
+    border-left-color: rgba(250, 57, 57, 0.7);
+    border-width: 8px;
+    margin-top: -8px;
+}
+
+.input-error {
+    border-color: var(--delete-color);
 }

@@ -74,7 +74,8 @@
                         </div>
                         <div class="page-header-right">
                             <div class="page-button">
-                                <button onclick="btnAdd()" class="btn btn-add" id="btnAdd">Thêm</button>
+                                <button onclick="btnAdd()" class="btn btn-add"
+                                    id="btnAdd">Thêm</button>
                                 <button class="btn-output">Xuất Khẩu </button>
                                 <button class="btn-more-op"
                                     style="background-position: -628px -972px"></button>
@@ -229,19 +230,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Thông báo -->
-                            <div id="popup-notice" class="popup" hidden>
-                                <div class="popup-container">
-                                    div.
-                                </div>
-                            </div>
-
-                            <div id="dialog-teacher-detail" class="dialog" hidden>
+                            <div id="dialog-teacher-detail" class="dialog">
                                 <div class="dialog-weapper">
                                     <div class="dialog-sidebar">
                                         <div class="dialog-avt">
                                             <div class="img-avt">
-
                                             </div>
                                             <button class="btn-upload-avt">
                                                 Chọn ảnh
@@ -262,7 +255,8 @@
                                             <div class="dialog-text-header">Thêm
                                                 hồ sơ Cán
                                                 bộ, giáo viên</div>
-                                            <button class="btn-dialog-close" id="btnDialogClose">
+                                            <button class="btn-dialog-close"
+                                                id="btnDialogClose">
                                             </button>
                                         </div>
                                         <div class="dialog_container">
@@ -274,15 +268,25 @@
                                                         cán bộ </div>
                                                     <div
                                                         class="color-text-dialog">*</div>
-                                                    <input id="txtEmployeeCode" type="text"
-                                                        class="input-stt-dialog-left">
+                                                    <div class="dialog-el-2">
+                                                        <input
+                                                            id="txtEmployeeCode"
+                                                            type="text"
+                                                            class="input-stt-dialog-left">
+                                                        <div
+                                                            class="dialog-el-2-error
+                                                            dialog-el-right--error">
+                                                            Số hiệu cán bộ không
+                                                            được bỏ trống
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="phone-dialog">
                                                     <div
                                                         class="text-phone-dialog">Số
                                                         điện
                                                         thoại</div>
-                                                    <input type="text"
+                                                    <input id="txtEmployeeMobie" type="text"
                                                         class="input-phone-dialog-left">
                                                 </div>
                                                 <div
@@ -334,13 +338,23 @@
                                                     </div>
                                                     <div
                                                         class="color-text-dialog">*</div>
-                                                    <input type="text" id="txtEmployeeName"
-                                                        class="input-name-dialog-right">
+                                                    <div class="dialog-el-0">
+                                                        <input type="text"
+                                                            id="txtEmployeeName"
+                                                            class="input-name-dialog-right">
+                                                        <div
+                                                            class="dialog-el-0-error
+                                                            dialog-el-left--error">
+                                                            Họ và tên không được
+                                                            bỏ trống
+                                                        </div>
+                                                    </div>
                                                 </div>
                                                 <div class="email-dialog">
                                                     <div
                                                         class="text-email-dialog">Email</div>
-                                                    <input type="text" id="txtEmail"
+                                                    <input type="text"
+                                                        id="txtEmployeeEmail"
                                                         class="input-email-dialog-right">
                                                 </div>
                                                 <div
@@ -437,10 +451,34 @@
                                         <div class="dialog_footer">
                                             <button class="btn-close">Đóng
                                             </button>
-                                            <button id="btnSave" class="btn btn-dialog-add">Lưu</button>
+                                            <button id="btnSave" class="btn
+                                                btn-dialog-add">Lưu</button>
                                         </div>
                                     </div>
                                 </div>
+                                <div id="toastMsg" class="toast-message-container">
+                                    <div class="toast-message">
+                                      <div class="toast-message-left">
+                                        <div class="toast-message-img"></div>
+                                        <div class="toast-message-text">
+                                          <div class="toast-message-title">Lỗi</div>
+                                          <div class="toast-message-content"></div>
+                                        </div>
+                                      </div>
+                                      <div id="toastMsgClose" class="toast-message-close"></div>
+                                    </div>
+                                  </div>
+                                  <!-- <div id="toastMsgSucces" class="toast-message-container">
+                                    <div class="toast-message">
+                                      <div class="toast-message-left">
+                                        <div class="toast-message-img-succes"></div>
+                                        <div class="toast-message-text">
+                                          <div class="toast-message-title">Thành Công</div>
+                                        </div>
+                                      </div>
+                                      <div id="toastMsgSuccesClose" class="toast-message-close"></div>
+                                    </div>
+                                  </div> -->
                             </div>
                         </div>
                     </div>

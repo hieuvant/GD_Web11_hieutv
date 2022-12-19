@@ -38,6 +38,7 @@
     box-shadow: 0 3px 6px #000;
     height: 150px;
     overflow: scroll;
+    background-color: #fff;
 }
 
 .data-item{
@@ -96,6 +97,7 @@
     box-shadow: 0 3px 6px #000;
     height: 150px;
     overflow: scroll;
+    background-color: #fff;
 }
 
 /**************************************************/
@@ -140,4 +142,5 @@
     border-radius: 4px;
     box-shadow: 0 3px 6px #000;
     overflow: scroll;
+    background-color: #fff;
 }
